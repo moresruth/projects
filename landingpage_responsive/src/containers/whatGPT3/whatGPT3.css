@@ -35,7 +35,8 @@
 
 .gpt3__whatgpt3-feature,
 .gpt3__whatgpt3-features-container__feature-text{
-    max-width: 700px;
+    max-width: 990px;
+    text-align: justify;
 }
 
 .gpt3__whatgpt3-heading{
@@ -43,7 +44,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 4rem 0 2rem;
+    margin: 4rem 0 1rem;
 }
 
 .gpt3__whatgpt3-heading h1{
