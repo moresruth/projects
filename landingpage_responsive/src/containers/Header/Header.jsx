@@ -1,17 +1,16 @@
 import React from 'react';
 import './header.css';
 import people from '../../assets/people.png';
-import profile from '../../assets/profile.png';
+import ai from '../../assets/ai.png';
 
 
 const Header = () => (
 
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
-        <p>👋 Hi, I'm</p>
-        <h1 className="gradient__text"> Antonette Mores</h1>
-        <p>  Hey! How nice of you to look at my personal site, Thank you! <br/>
-      I am Front-End Developer that specializes at responsive web design.</p>
+    
+        <h1 className="gradient__text"> Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
+        <p> Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
 
         <div className="gpt3__header-content__input">
           <input type="email" placeholder='Your email address'/>
@@ -25,7 +24,7 @@ const Header = () => (
       </div>
 
       <div className="gpt3__header-image">
-          <img src={profile} alt="ai" />
+          <img src={ai} alt="ai" />
       </div>
     </div>
   );
